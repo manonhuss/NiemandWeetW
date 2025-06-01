@@ -39,8 +39,6 @@
   <script>
     const afbeeldingen = [];
     for (let i = 1; i <= 594; i++) {
-      // Sla Dia595.PNG t/m Dia600.PNG over zoals in je originele code
-      if (i === 595 || i === 596 || i === 597 || i === 598 || i === 599 || i === 600) continue;
       const nummer = String(i).padStart(3, '0'); // optioneel: pad naar 3 cijfers als je dat wilt
       afbeeldingen.push(`Dia${i}.PNG`);
     }
